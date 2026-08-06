@@ -1,3 +1,4 @@
+// PORTFOLIO COMPLETED!
 import { useReducer, useEffect } from 'react';
 import { appReducer, initialState } from '../reducers/appReducer';
 import { AppState, AppAction } from '../types';

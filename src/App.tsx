@@ -1,3 +1,4 @@
+// PORTFOLIO COMPLETED!
 import { ConfigProvider, theme } from 'antd';
 import { useAppReducer } from './hooks/useAppReducer';
 import { useIntersectionSpy } from './hooks/useIntersection';

@@ -1,3 +1,4 @@
+// PORTFOLIO COMPLETED!
 import { useEffect, useRef } from 'react';
 import { AppAction } from '../types';
 

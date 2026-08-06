@@ -1,3 +1,4 @@
+// PORTFOLIO COMPLETED!
 import { AppState, AppAction } from '../types';
 
 export const initialState: AppState = {

@@ -1,3 +1,4 @@
+// PORTFOLIO COMPLETED!
 import { Project, Testimonial, NavItem, Skill, Experience, Certificate } from '../types';
 // Resolve local images that actually exist in `src/images` using Vite's import.meta.url
 const localImage = (name?: string) => (name ? new URL(`../images/${name}`, import.meta.url).href : '');

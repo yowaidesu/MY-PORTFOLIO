@@ -1,3 +1,4 @@
+// PORTFOLIO COMPLETED!
 import { Typography, Tag, Card, Row, Col } from 'antd';
 import { Skill } from '../../types';
 
