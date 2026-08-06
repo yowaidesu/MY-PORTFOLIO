@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { Typography, Card, Button, Row, Col } from 'antd';
 import { FileTextOutlined, LinkOutlined } from '@ant-design/icons';
 import { Certificate } from '../../types';
