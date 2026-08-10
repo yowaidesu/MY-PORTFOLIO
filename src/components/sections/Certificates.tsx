@@ -49,6 +49,38 @@ export function Certificates({ certificates }: CertificatesProps) {
             </Col>
           ))}
         </Row>
+
+        <Row gutter={[24, 24]}>
+          {certificates.map((cert) => (
+            <Col xs={24} sm={12} lg={8} key={cert.id}>
+              <Card className="certificate-card" variant="borderless" hoverable>
+                {cert.image ? (
+                  <div className="certificate-image">
+                    <img src={cert.image} alt={cert.title} />
+                  </div>
+                ) : (
+                  <div className="certificate-icon">
+                    <FileTextOutlined />
+                  </div>
+                )}
+                <Title level={4} className="certificate-title">{cert.title}</Title>
+                <Text type="secondary" className="certificate-issuer">{cert.issuer}</Text>
+                <Text type="secondary" className="certificate-date">{cert.date}</Text>
+                {cert.link && (
+                  <Button
+                    type="link"
+                    icon={<LinkOutlined />}
+                    href={cert.link}
+                    target="_blank"
+                    className="certificate-link"
+                  >
+                    View Certificate
+                  </Button>
+                )}
+              </Card>
+            </Col>
+          ))}
+        </Row>
       </div>
     </section>
   );
