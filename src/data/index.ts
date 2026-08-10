@@ -37,36 +37,6 @@ export const projects: Project[] = [
   },
 ];
 
-export const testimonials: Testimonial[] = [
-  {
-    quote: 'Incredibly sharp with databases and system design. Turned a complex schema problem into clean, working SQL in minutes.',
-    author: 'Prof. Reyes',
-    role: 'Database Systems Instructor',
-    company: 'University',
-  },
-  {
-    quote: 'The encrypted stream project was genuinely impressive — real cryptography, real networking, not just theory.',
-    author: 'Marco L.',
-    role: 'Classmate & Collaborator',
-    company: 'BSIT Program',
-  },
-  {
-    quote: 'Detail-oriented and persistent. Never stops until the bug is found and fixed.',
-    author: 'Ivan C.',
-    role: 'Project Partner',
-    company: 'Networking Course',
-  },
-];
-
-export const capabilities = [
-  'Full-Stack Development',
-  'Database Design',
-  'Network Security',
-  'Python & Cryptography',
-  'React & TypeScript',
-  'System Architecture',
-];
-
 export const skills: Skill[] = [
   { name: 'Python', category: 'Programming', level: 'intermediate' },
   { name: 'C++', category: 'Programming', level: 'beginner' },
@@ -102,4 +72,12 @@ export const certificates: Certificate[] = [
     link: 'https://www.credly.com/badges/fc55b035-60c3-4a55-bdae-4f85ba259fad/public_url',
     image: 'https://images.credly.com/size/220x220/images/5bdd6a39-3e03-4444-9510-ecff80c9ce79/image.png',
   },
+  {
+    id: 'cert2',
+    title: 'National Certificate II',
+    issuer: 'SEC. SUHARTO T. MANGUDADATU, Ph. D',
+    date: 'June 19, 2024',
+    link: '',
+    image: localImage('ncII.png')
+  }
 ];
